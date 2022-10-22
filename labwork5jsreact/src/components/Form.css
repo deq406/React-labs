@@ -1,0 +1,59 @@
+form {
+  width: fit-content;
+  top: 25%;
+  position: absolute;
+  font-weight: 500;
+}
+input {
+  display: block;
+}
+button[type="submit"] {
+  margin-top: 0.5em;
+}
+input[type="radio"] {
+  display: inline;
+}
+select:first-child {
+  margin-right: 0;
+}
+select {
+  height: 1.3em;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #363636;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 1px;
+}
+select:focus {
+  outline: none;
+}
+.em.enabled ::before {
+  content: url(/Users/egormartinovich/labwork5jsreact/src/components/premium-icon-check-mark-5290076.png);
+}
+legend {
+}
+fieldset {
+  box-shadow: 10px 5px 5px gray;
+}
+input[type="text"],
+input[type="email"] {
+  box-shadow: inset 1em 0.25em 0.25em whitesmoke;
+}
+input[type="text"]:focus {
+  box-shadow: 4px 2px 2px gray;
+}
+.pass.validated::after {
+  content: "Пароль верен";
+}
+.progress {
+  height: 7px;
+  width: 147px;
+  background-color: gray;
+  opacity: 0.4;
+  content: "";
+}
+.progress-bar {
+  height: 7px;
+}
